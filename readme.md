@@ -1,5 +1,7 @@
 ## Identify all internal SGID-related data processes
 
+<details>
+ 
 ##### Address Points
  - Zach
  - Greg
@@ -40,9 +42,12 @@
     - EMS
     - Law
     - City Codes
+</details>
 
 ## Document and review processes
 
+<details>
+ 
 1. **Address Points**
    1. Existing scripts are written, 1 per participating county
    1. Incomplete because data is not received from
@@ -129,6 +134,8 @@
    3. Can change when code gets subdivided
 1. **Address Grids**
    1. Align to boundaries **manually**
+
+</details>
 
 ### Decide which processes are best to automate
 
