@@ -44,14 +44,14 @@
 ## Document and review processes
 
 1. Address Points
-  1. Existing scripts are written, 1 per participating county
-  1. Incomplete because data is not received from
-    - Daggett
-    - Unitah
-    - San Juan
-    - Grand
-    - Garfield
-    - Sanpete
+   1. Existing scripts are written, 1 per participating county
+   1. Incomplete because data is not received from
+      - Daggett
+      - Unitah
+      - San Juan
+      - Grand
+      - Garfield
+      - Sanpete
 1. Broadband
   1. needs documentation but automation is not the best fit
 1. Boundaries
