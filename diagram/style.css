@@ -1,0 +1,40 @@
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+marker#data {
+  fill: green;
+}
+
+path.link.data {
+  stroke: green;
+  stroke-dasharray: 5, 5, 1, 5;
+}
+
+marker#qc {
+  fill: red;
+}
+
+path.link.qc {
+  stroke-dasharray: 0,2 1;
+  stroke: red;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
