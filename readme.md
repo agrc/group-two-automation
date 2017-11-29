@@ -146,6 +146,7 @@
 
 ### Determine data dependencies
 
+https://agrc.github.io/group-two-automation/
 ![graph](./data-relationships.png)
 1. **green dash** _geometry/attributes are derived_
 2. **red dash** _used for quality control_
