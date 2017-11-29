@@ -9,32 +9,32 @@
  - Bert
 
 ##### Boundaries
- - Mike
- - **Datasets**
-  - Municipalities
-  - County
-  - Voting/Precinct
-  - Tax
+  - Mike
+  - **Datasets**
+    - Municipalities
+    - County
+    - Voting/Precinct
+    - Tax
 
 ##### Roads
  - Michael
  - Greg
 
 ##### Parcels
- - Rick
- - **Datasets**
+  - Rick
+  - **Datasets**
     - Normal Parcels
     - LIR
 
 ##### Imagery
- - Rick
- - **Datasets**
+  - Rick
+  - **Datasets**
     - Indices
     - Raster.utah.gov
 
 ##### Zone Boundaries
- - Dave
- - **Datasets**
+  - Dave
+  - **Datasets**
     - PSAPS
     - Fire
     - EMS
@@ -42,6 +42,7 @@
     - City Codes
 
 ## Document and review processes
+
 1. Address Points
   1. Existing scripts are written, 1 per participating county
   1. Incomplete because data is not received from
