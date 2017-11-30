@@ -47,6 +47,7 @@
 ## Document and review processes
 
 <details>
+ <summary>Click to see all discovered processes</summary>
  
 1. **Address Points**
    1. Existing scripts are written, 1 per participating county
@@ -117,13 +118,16 @@
      1. Inspectes segments with geocodes scores < 100%
      2. Edits in spillman and Utrans with a note
 1. **Schools**
-   1. Scrape data from office of ed
-   2. ETL to our schema **manually**
+   1. Spreadsheet from office of ed
+   2. Geocoded and ETL to our schema **manually**
    3. Validate addresses and possibly move point
 1. **EMS Response Zones**
-   1. Not sure where they come from or how they are maintained.
+   1. Come from Department of Health Bureau of EMS.  
+   1. They license EMS agencies and the license describes the area of responsibility. 
+   1. Polygons are created or modified based on the descriptions.
 1. **Care Centers**
-   1. Get from Health some how
+   1. Spreadsheet from office of ed
+   2. Geocoded and ETL to our schema **manually**
    1. Addresses are validated **manually**
 1. **Enterprise Zones**
    1. Kelleigh sends shapefiles in emails
@@ -141,6 +145,12 @@
 
 1. David is requesting help with dispatch data sets
 2. Mike's boundary stuff seems like it could use some assistive automation
+1. Vista Ballot Area Updates
+   1. The process happens around 29 times a year plus the extras from the organized counties
+   2. Might happen a lot more in 2020 with redistricting
+   3. would like to automate proposed edits to live propogation (forklift?)
+   4. tools to help validate data, topology checks, visual checks, validate vista id's
+   5. can be built as a pro addin
 
 ### Plan an implementation for automatable processes
 
