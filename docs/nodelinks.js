@@ -152,7 +152,7 @@ relationships.forEach(function(link) {
   link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
 });
 
-var w = 1900,
+var w = 1200,
     h = 800;
 
 var force = d3.layout.force()
