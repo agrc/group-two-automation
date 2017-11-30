@@ -1,6 +1,7 @@
 ## Identify all internal SGID-related data processes
 
 <details>
+ <summary>Click to see dataset's that are updated</summary>
  
 ##### Address Points
  - Zach
@@ -144,13 +145,17 @@
 ### Decide which processes are best to automate
 
 1. David is requesting help with dispatch data sets
-2. Mike's boundary stuff seems like it could use some assistive automation
+2. County Municipal boundaries
+   1. would like to automate modification edits to live feature class
+      1. currently using the trace tool
 1. Vista Ballot Area Updates
    1. The process happens around 29 times a year plus the extras from the organized counties
    2. Might happen a lot more in 2020 with redistricting
    3. would like to automate proposed edits to live propogation (forklift?)
    4. tools to help validate data, topology checks, visual checks, validate vista id's
    5. can be built as a pro addin
+1. Tool to align segments
+   1. There seem to be a lot of use cases to be able to select segments from different feature classes and make them coincident 
 
 ### Plan an implementation for automatable processes
 
