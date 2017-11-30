@@ -142,7 +142,7 @@
 
 </details>
 
-### Decide which processes are best to automate
+## Decide which processes are best to automate
 
 1. David is requesting help with dispatch data sets
 2. County Municipal boundaries
@@ -160,9 +160,9 @@
 1. Tool to align segments
    1. There seem to be a lot of use cases to be able to select segments from different feature classes and make them coincident 
 
-### Plan an implementation for automatable processes
+## Plan an implementation for automatable processes
 
-### Determine data dependencies
+## Determine data dependencies
 
 https://agrc.github.io/group-two-automation/
 ![graph](./data-relationships.png)
