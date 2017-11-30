@@ -154,6 +154,9 @@
    3. would like to automate proposed edits to live propogation (forklift?)
    4. tools to help validate data, topology checks, visual checks, validate vista id's
    5. can be built as a pro addin
+1. GCDB
+   1. There are currently publishing tools to go from the fabric to individual feature classes
+   1. The process could be made smoother with an attribute ETL after the first step
 1. Tool to align segments
    1. There seem to be a lot of use cases to be able to select segments from different feature classes and make them coincident 
 
