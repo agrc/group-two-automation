@@ -152,7 +152,7 @@
    1. Scripts exist to ETL
       1. state boundary intersections 
       1. split for in/outside of utah 
-      1 add the `ismajor` and `issubmerged` attributes
+      1. add the `ismajor` and `issubmerged` attributes
 </details>
 
 ## Decide which processes are best to automate
