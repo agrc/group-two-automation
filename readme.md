@@ -43,6 +43,13 @@
     - EMS
     - Law
     - City Codes
+
+##### Water
+  - Zach
+  - **Datasets**
+    - NHD Springs
+    - NHD Lakes
+    - NHD Streams
 </details>
 
 ## Document and review processes
@@ -140,6 +147,12 @@
 1. **Address Grids**
    1. Align to boundaries **manually**
 
+1. **Water**
+   1. Download data from USGS 
+   1. Scripts exist to ETL
+      1. state boundary intersections 
+      1. split for in/outside of utah 
+      1 add the `ismajor` and `issubmerged` attributes
 </details>
 
 ## Decide which processes are best to automate
