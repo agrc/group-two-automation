@@ -163,10 +163,10 @@
 ## Decide which processes are best to automate
 
 1. David is requesting help with dispatch data sets
-  1. Change detected for UTRANS and local data streets and address points in PSAP areas
-  2. attribute and geometry differences same with the tool that greg has already created
-  3. can use pro to edit data
-  4. when streets move boudaries sometimes should follow the street
+   1. Change detected for UTRANS and local data streets and address points in PSAP areas
+   2. attribute and geometry differences same with the tool that greg has already created
+   3. can use pro to edit data
+   4. when streets move boudaries sometimes should follow the street
 2. County Municipal boundaries
    1. would like to automate modification edits to live feature class
       1. currently using the trace tool
