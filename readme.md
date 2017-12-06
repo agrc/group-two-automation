@@ -2,7 +2,7 @@
 
 <details>
  <summary>Click to see dataset's that are updated</summary>
- 
+
 ##### Address Points
  - Zach
  - Greg
@@ -56,7 +56,7 @@
 
 <details>
  <summary>Click to see all discovered processes</summary>
- 
+
 1. **Address Points**
    1. Existing scripts are written, 1 per participating county
    1. Incomplete because data is not received from
@@ -122,16 +122,21 @@
         1. Sevier, Wayne, and Piute Counties they send David the address points  directly
      1. geocodes address points and inspects less than 100% matches
      1. fixes issues **manually**
+        2. look at associated street, use street view, look at address ranges, if there is a segment
   1. **Roads**
      1. Inspectes segments with geocodes scores < 100%
      2. Edits in spillman and Utrans with a note
+     3. tool to segment to segment connectivity and create a node splitting the segment recalculate address ranges
+     4. dangles as exceptions, vb to pro?
 1. **Schools**
    1. Spreadsheet from office of ed
    2. Geocoded and ETL to our schema **manually**
    3. Validate addresses and possibly move point
+   4. should update quarterly
+   5. addresses are sometimes wrong and need moved
 1. **EMS Response Zones**
-   1. Come from Department of Health Bureau of EMS.  
-   1. They license EMS agencies and the license describes the area of responsibility. 
+   1. Come from Department of Health Bureau of EMS.
+   1. They license EMS agencies and the license describes the area of responsibility.
    1. Polygons are created or modified based on the descriptions.
 1. **Care Centers**
    1. Spreadsheet from office of ed
@@ -148,16 +153,20 @@
    1. Align to boundaries **manually**
 
 1. **Water**
-   1. Download data from USGS 
+   1. Download data from USGS
    1. Scripts exist to ETL
-      1. state boundary intersections 
-      1. split for in/outside of utah 
+      1. state boundary intersections
+      1. split for in/outside of utah
       1. add the `ismajor` and `issubmerged` attributes
 </details>
 
 ## Decide which processes are best to automate
 
 1. David is requesting help with dispatch data sets
+  1. Change detected for UTRANS and local data streets and address points in PSAP areas
+  2. attribute and geometry differences same with the tool that greg has already created
+  3. can use pro to edit data
+  4. when streets move boudaries sometimes should follow the street
 2. County Municipal boundaries
    1. would like to automate modification edits to live feature class
       1. currently using the trace tool
@@ -171,7 +180,7 @@
    1. There are currently publishing tools to go from the fabric to individual feature classes
    1. The process could be made smoother with an attribute ETL after the first step
 1. Tool to align segments
-   1. There seem to be a lot of use cases to be able to select segments from different feature classes and make them coincident 
+   1. There seem to be a lot of use cases to be able to select segments from different feature classes and make them coincident
 
 ## Plan an implementation for automatable processes
 
