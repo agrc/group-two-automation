@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="RangeFinder.dll" defaultNamespace="RangeFinder" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{57d6bd6e-3447-4649-88b6-7b14b67092b7}" version="1.0" desktopVersion="2.0.8933">
+    <Name>RangeFinder</Name>
+    <Description>RangeFinder description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>agrc-arcgis</Author>
+    <Company>Acme</Company>
+    <Date>12/7/2017 11:33:17 AM, 2017</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="RangeFinder_Module" className="Singleton" autoLoad="false" caption="Singleton">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="RangeFinder_Tab1" caption="New Tab">
+          <group refID="RangeFinder_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="RangeFinder_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <tool refID="RangeFinder_RangeFinder2000" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <tool id="RangeFinder_RangeFinder2000" caption="RangeFinder 2000" className="RangeFinder2000" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Find a Range">Click on a road to find it's range<disabledText /></tooltip>
+        </tool>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
